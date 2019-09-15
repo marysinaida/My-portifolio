@@ -44,6 +44,8 @@ header{
     letter-spacing: 2px;
     font-family: cambria;
     font-style: inherit;
+    font-weight: bolder;
+    text-decoration: line-through
     
 }
 .folio p{
