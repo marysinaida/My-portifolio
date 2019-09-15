@@ -3,6 +3,7 @@ body{
     background-color: antiquewhite;
 }
 h2{
+    top: 15px;
     text-align: center;
     text-decoration: underline;
     font-size: 28px;
