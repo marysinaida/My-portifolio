@@ -49,6 +49,7 @@ header{
 .col{
     float: right;
     overflow: hidden;
+    font-family: Helvetica;
 }
 .container{
     background-color: #b2b2b2;
