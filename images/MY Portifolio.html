@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/index.html#home -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MY Portifolio</title>
+    <link rel="stylesheet" type="text/css" href="./MY Portifolio_files/styles.css">
+</head>
+<body>
+    <div class="nav">
+              <nav>
+                <ul>
+                       <li><a href="http://127.0.0.1:5500/index.html#contact">CONTACT</a></li>
+                        <li><a href="http://127.0.0.1:5500/index.html#folio">FOLIO</a></li>
+                        <li><a href="http://127.0.0.1:5500/index.html#aboutme">ABOUTME</a></li>
+                        <li><a class="active" href="http://127.0.0.1:5500/index.html#home">HOME</a></li>
+                </ul>
+              </nav>
+    </div>        
+                <div class="history">
+    
+            <main>
+                 <header class="home" id="home"><br>
+                        <h1>I'm Mary D Sinaida</h1>
+                        <h5>Junior Web Developer // Designer</h5>
+                        <img src="./MY Portifolio_files/IMG_20180831_165243056.jpg">
+                     </header>
+            </main>
+            <section class="aboutme" id="aboutme">
+                    <h2>About Me</h2>
+                    <p>
+                        <span>Hello,I'm Mary Sinaida</span>A student at Moringa school studying Wed Development and Design,Am also life long learner and ready for new oppotunies.A bit about my intrest is that i love music
+                        art,reading ,travelling meeting new people and knowing alot.My favorite color is black and white.And my biggest dream is becoming a very succefull Web Developer and that is the reason am studying Web Developing and design.
+                    </p>
+                    <p>
+                        I belive when i clear my studies i will deliver a user center design and delivering the best possible experience to people.
+                        I have experience in Html,Css,Flexbox,Git,GitHub,Computer packages and Javascript.
+                    </p>
+                    <h3>My Skills</h3>
+                    <p>Html 5</p>
+                    <div class="container">
+                        <div class=" Html">95%</div>
+                    </div>
+                    <p>Css</p>
+                    <div class="container">
+                        <div class="Css">90%</div>
+                    </div>
+                    <p>Git</p>
+                    <div class="container">
+                        <div class="Git">85%</div>
+                    </div>
+                    <p>GitHub</p>
+                    <div class="container">
+                        <div class="GitHub">80%</div>
+                    </div>
+                    <p>Computer-Packages</p>
+                    <div class="container">
+                        <div class=" computerpackages">70%</div>
+                    </div>
+                </section>
+               
+                <section class="folio" id="folio">
+                    <h2>Folio</h2>
+                    <div class="row-halves">
+                    <img src="./MY Portifolio_files/IMG_20190301_164551_606.jpg" width="650" alt="">
+                    <div class="col">
+                            <h3>My JOURNEY.</h3>
+                            <p>I cleared my high school in the year 2014</p>
+                            <p>Worked at DDD in the operation depertment to satisfy your team and client needs.</p>
+                        <p>studied at st pauls university taking a course known as information and Technology.</p>
+                                <p>I also build and design responsive site for projects no idea is to small since everyone deserves a voice in the web</p>
+                <p>With the knowledge i have so far have been able to complete on project am so glad since it was my first Design</p>
+                <div id="my project">
+                    <h2>project</h2>
+                        <p><strong>my project is called snach snach-farmbiz its a design that interact with the buyer and selller.</strong></p>
+                            <img src="./MY Portifolio_files/fruit.png">
+                            <a href="https://marysinaida.github.io/snach-farmbiz/">Click here </a>
+                        </div>
+                        </div></div></section>
+                
+                <section class="contact" id="contact">
+                    <h2>Contact</h2>
+                    <div class="container">
+                        <form action="http://127.0.0.1:5500/index.html">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name">
+                            <label for="email">E-mail</label>
+                            <input type="text" id="email" name="email">
+                            <label for="massage">Massage</label>
+                            <textarea name="message" id="message" style="height:50px"></textarea>
+                            <input type="submit" value="submit">
+                        </form>
+                    </div>
+                </section>
+                 <footer>
+                     <p>copyrights © 2019 Dorcas Snyder. All rights reserved</p>
+                        <i class="fa fa-facebook" style="font-size:40px;"></i>
+                        <i class="fa fa-twitter" style="font-size:40px;"></i>
+                        <i class="fa fa-instagram" style="font-size:40px;"></i>
+                 </footer>
+                      
+                           
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</div></body></html>
