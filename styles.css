@@ -42,6 +42,9 @@ header{
     color:black;
     font-weight: 300;
     letter-spacing: 2px;
+    font-family: cambria;
+    font-style: inherit;
+    
 }
 .folio p{
     font-size:1em;
