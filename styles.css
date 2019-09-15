@@ -46,7 +46,7 @@ header{
     font-size:1em;
 }
 
-#col{
+.col{
     float: right;
     overflow: hidden;
 }
